@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@use "@angular/material" as mat;
+// Customize the entire app. Change :root to your selector if you want to scope the styles.
+:root {
+  @include mat.toolbar-overrides(
+    (
+      container-background-color: #000,
+      container-text-color: #fff,
+    )
+  );
+
+  @include mat.button-overrides(
+    (
+      filled-label-text-color: #fff,
+    )
+  );
+}
