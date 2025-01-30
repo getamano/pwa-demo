@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1738265917834,
+  "timestamp": 1738267656407,
   "index": "/pwa-demo/index.html",
   "assetGroups": [
     {
@@ -11,11 +11,11 @@
         "ignoreVary": true
       },
       "urls": [
-        "/pwa-demo/chunk-U3A25YET.js",
-        "/pwa-demo/chunk-ZUVKTFG6.js",
+        "/pwa-demo/chunk-W6UF3OGH.js",
+        "/pwa-demo/chunk-WEQAQYWA.js",
         "/pwa-demo/favicon.ico",
         "/pwa-demo/index.html",
-        "/pwa-demo/main-X77IRAJN.js",
+        "/pwa-demo/main-UMDCDJIW.js",
         "/pwa-demo/manifest.webmanifest",
         "/pwa-demo/polyfills-FFHMD2TL.js",
         "/pwa-demo/styles-TWMR4DTY.css"
@@ -58,8 +58,8 @@
     }
   ],
   "hashTable": {
-    "/pwa-demo/chunk-U3A25YET.js": "42365b0e332133e09547e08b3a15541cdfb672c0",
-    "/pwa-demo/chunk-ZUVKTFG6.js": "84118bf7729b55610cee1ed93110d4f249613b08",
+    "/pwa-demo/chunk-W6UF3OGH.js": "dc72e556b8e6e9d21bc6885e2f637dd40296380e",
+    "/pwa-demo/chunk-WEQAQYWA.js": "b6d9cae6b50cb776115b0b03b8be918d306d5e63",
     "/pwa-demo/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
     "/pwa-demo/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
     "/pwa-demo/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
@@ -69,8 +69,8 @@
     "/pwa-demo/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/pwa-demo/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/pwa-demo/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/pwa-demo/index.html": "a042e890e4f65b1cd8f04f23ede803ef7025ead3",
-    "/pwa-demo/main-X77IRAJN.js": "2777bf547a0b038a693c5fc9636046860de2d55a",
+    "/pwa-demo/index.html": "29014f33a7e8bbd8a01ee5fe033e3a12ae43d58c",
+    "/pwa-demo/main-UMDCDJIW.js": "16520caa3942b07f52623cf2a63a53e38d504a1d",
     "/pwa-demo/manifest.webmanifest": "7d13acc58023709ab863c601074c7909b4c11795",
     "/pwa-demo/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
     "/pwa-demo/styles-TWMR4DTY.css": "c6cdd191adc5bd1e42a0a8864f9199bbec8e1dc1"
