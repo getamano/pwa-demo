@@ -10,7 +10,6 @@ import { Component } from '@angular/core';
       <input
         type="file"
         accept="image/*,video/*"
-        capture="environment"
         (change)="onFileSelected($event)"
       />
 
