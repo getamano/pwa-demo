@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1734290599087,
-  "index": "/pwa-demo/index.html",
+  "timestamp": 1738265212308,
+  "index": "/angular-app/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,14 +11,14 @@
         "ignoreVary": true
       },
       "urls": [
-        "/pwa-demo/chunk-U3A25YET.js",
-        "/pwa-demo/chunk-ZUVKTFG6.js",
-        "/pwa-demo/favicon.ico",
-        "/pwa-demo/index.html",
-        "/pwa-demo/main-PY53G25O.js",
-        "/pwa-demo/manifest.webmanifest",
-        "/pwa-demo/polyfills-FFHMD2TL.js",
-        "/pwa-demo/styles-TWMR4DTY.css"
+        "/angular-app/chunk-U3A25YET.js",
+        "/angular-app/chunk-ZUVKTFG6.js",
+        "/angular-app/favicon.ico",
+        "/angular-app/index.html",
+        "/angular-app/main-J37DX55T.js",
+        "/angular-app/manifest.webmanifest",
+        "/angular-app/polyfills-FFHMD2TL.js",
+        "/angular-app/styles-TWMR4DTY.css"
       ],
       "patterns": []
     },
@@ -30,14 +30,14 @@
         "ignoreVary": true
       },
       "urls": [
-        "/pwa-demo/icons/icon-128x128.png",
-        "/pwa-demo/icons/icon-144x144.png",
-        "/pwa-demo/icons/icon-152x152.png",
-        "/pwa-demo/icons/icon-192x192.png",
-        "/pwa-demo/icons/icon-384x384.png",
-        "/pwa-demo/icons/icon-512x512.png",
-        "/pwa-demo/icons/icon-72x72.png",
-        "/pwa-demo/icons/icon-96x96.png"
+        "/angular-app/icons/icon-128x128.png",
+        "/angular-app/icons/icon-144x144.png",
+        "/angular-app/icons/icon-152x152.png",
+        "/angular-app/icons/icon-192x192.png",
+        "/angular-app/icons/icon-384x384.png",
+        "/angular-app/icons/icon-512x512.png",
+        "/angular-app/icons/icon-72x72.png",
+        "/angular-app/icons/icon-96x96.png"
       ],
       "patterns": []
     }
@@ -58,22 +58,22 @@
     }
   ],
   "hashTable": {
-    "/pwa-demo/chunk-U3A25YET.js": "42365b0e332133e09547e08b3a15541cdfb672c0",
-    "/pwa-demo/chunk-ZUVKTFG6.js": "84118bf7729b55610cee1ed93110d4f249613b08",
-    "/pwa-demo/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/pwa-demo/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
-    "/pwa-demo/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
-    "/pwa-demo/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
-    "/pwa-demo/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
-    "/pwa-demo/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
-    "/pwa-demo/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
-    "/pwa-demo/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
-    "/pwa-demo/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/pwa-demo/index.html": "c77d3b99472648c139b1f474c6e4a310a5105c77",
-    "/pwa-demo/main-PY53G25O.js": "ee758d109b220c0dc4b272aca17938bdd7f12d1a",
-    "/pwa-demo/manifest.webmanifest": "7d13acc58023709ab863c601074c7909b4c11795",
-    "/pwa-demo/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
-    "/pwa-demo/styles-TWMR4DTY.css": "c6cdd191adc5bd1e42a0a8864f9199bbec8e1dc1"
+    "/angular-app/chunk-U3A25YET.js": "42365b0e332133e09547e08b3a15541cdfb672c0",
+    "/angular-app/chunk-ZUVKTFG6.js": "84118bf7729b55610cee1ed93110d4f249613b08",
+    "/angular-app/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/angular-app/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/angular-app/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/angular-app/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/angular-app/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/angular-app/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/angular-app/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/angular-app/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/angular-app/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/angular-app/index.html": "7612ac4bc4679523e416dbd0d943118740768ce1",
+    "/angular-app/main-J37DX55T.js": "7008db770dd903fed9d55cf049b20121b91e6aaa",
+    "/angular-app/manifest.webmanifest": "7d13acc58023709ab863c601074c7909b4c11795",
+    "/angular-app/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "/angular-app/styles-TWMR4DTY.css": "c6cdd191adc5bd1e42a0a8864f9199bbec8e1dc1"
   },
   "navigationUrls": [
     {
