@@ -7,11 +7,7 @@ import { Component } from '@angular/core';
       <h1>Take or Upload a Photo</h1>
 
       <!-- File Input -->
-      <input
-        type="file"
-        accept="image/*,video/*"
-        (change)="onFileSelected($event)"
-      />
+      <input type="file" accept="image/*" (change)="onFileSelected($event)" />
 
       <!-- Preview -->
       @if(photo){
