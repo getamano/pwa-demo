@@ -1,32 +1,67 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
+
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-camera-upload',
+  imports: [MatButtonModule, MatCardModule, MatIconModule],
   template: `
-    <div class="container">
-      <h1>Take or Upload a Photo</h1>
+    <mat-card class="my-app-card" appearance="outlined">
+      <mat-card-header>
+        <mat-card-title>Take or Upload a Photo</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="container">
+          <!-- File Input -->
+          <input
+            #fileUpload
+            type="file"
+            accept="image/*"
+            capture="environment"
+            (change)="onFileSelected($event)"
+            class="file-input"
+          />
 
-      <!-- File Input -->
-      <input type="file" accept="image/*" (change)="onFileSelected($event)" />
+          <input
+            #fileUpload2
+            type="file"
+            accept="image/*"
+            (change)="onFileSelected($event)"
+            class="file-input"
+          />
 
-      <!-- Preview -->
-      @if(photo){
-      <div class="preview">
-        <h3>Preview:</h3>
-        <img [src]="photo" alt="Selected Photo" />
-      </div>
-      }
+          <button type="button" mat-raised-button (click)="fileUpload.click()">
+            Open Camera Roll
+            <mat-icon>camera</mat-icon>
+          </button>
 
-      <!-- Upload Button -->
-      <button (click)="uploadPhoto()" [disabled]="!selectedFile">
-        Upload Photo
-      </button>
-    </div>
+          <button type="button" mat-raised-button (click)="fileUpload2.click()">
+            Upload Photo
+            <mat-icon>cloud_upload</mat-icon>
+          </button>
+
+          <!-- Preview -->
+          @if(photo){
+          <div class="preview">
+            <img [src]="photo" alt="Selected Photo" />
+          </div>
+          }
+        </div>
+      </mat-card-content>
+      <mat-card-actions align="end">
+        <button mat-flat-button color="primary" (click)="uploadPhoto()">
+          Upload
+        </button>
+      </mat-card-actions>
+    </mat-card>
   `,
   styles: [
     `
       .container {
-        text-align: center;
         margin: 20px;
       }
       .preview img {
@@ -38,10 +73,15 @@ import { Component } from '@angular/core';
       button {
         margin-top: 10px;
       }
+
+      .file-input {
+        display: none; /* Hide the file input */
+      }
     `,
   ],
 })
 export class CameraUploadComponent {
+  private readonly snackBar = inject(MatSnackBar);
   selectedFile: File | null = null;
   photo: string | null = null;
 
@@ -69,8 +109,7 @@ export class CameraUploadComponent {
 
       // Simulate upload (Replace with actual HTTP request)
       console.log('Uploading...', this.selectedFile);
-
-      alert('Photo uploaded successfully!');
+      this.snackBar.open('Photo uploaded successfully!', 'Ok');
     }
   }
 }
